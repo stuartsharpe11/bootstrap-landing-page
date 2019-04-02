@@ -25,7 +25,9 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #4586FF !important; }
-
+.navbar-light .navbar-brand {
+  color:black;
+}
 .ftco-navbar-light {
   background: white !important;
   position: absolute;
@@ -34,7 +36,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media screen and (max-width: 991px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background:white; !important;
       top: 0;
       position: relative; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -183,7 +185,7 @@ h1, h2, h3, h4, h5,
     width: 120%;
     height: 200px;
     left: -10%;
-    background: #f2f2f2;
+    background: white;
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -223,12 +225,13 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
-    background: #4586FF;
-    border-color: #4586FF;
-    color: #fff; }
+    background: white;
+    border-color: #59C9A5;
+    color: #59C9A5; }
     .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
-      border-color: #1265ff;
-      background: #1265ff; }
+      border-color: #59C9A5;
+      background: #59C9A5;
+      color:white; }
   .btn.btn-outline-white {
     border-color: rgba(255, 255, 255, 0.2);
     background: none; }
@@ -291,7 +294,7 @@ textarea {
     background: #f2f2f2 !important; }
 
 .ftco-bg-dark {
-  background: #263135; }
+  background:white; }
 
 .ftco-footer {
   font-size: 16px; }
@@ -301,7 +304,7 @@ textarea {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal; }
   .ftco-footer p {
-    color: rgba(255, 255, 255, 0.3); }
+    color:black; }
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.3); }
     .ftco-footer a:hover {
